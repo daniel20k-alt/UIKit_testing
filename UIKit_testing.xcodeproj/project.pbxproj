@@ -13,6 +13,8 @@
 		EE543C8225EC468C00985B76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE543C8025EC468C00985B76 /* Main.storyboard */; };
 		EE543C8425EC469300985B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE543C8325EC469300985B76 /* Assets.xcassets */; };
 		EE543C8725EC469300985B76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE543C8525EC469300985B76 /* LaunchScreen.storyboard */; };
+		EE543C9225ED98BC00985B76 /* StoryPromptEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543C9025ED98BA00985B76 /* StoryPromptEntry.swift */; };
+		EE543C9325ED98BC00985B76 /* StoryPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE543C9125ED98BA00985B76 /* StoryPrompts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EE543C8325EC469300985B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE543C8625EC469300985B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE543C8825EC469300985B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE543C9025ED98BA00985B76 /* StoryPromptEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryPromptEntry.swift; path = "../../../../../Downloads/video-ukf-materials-versions-1.0/02-meet-the-view-controller/starter/StoryPromptEntry.swift"; sourceTree = "<group>"; };
+		EE543C9125ED98BA00985B76 /* StoryPrompts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryPrompts.swift; path = "../../../../../Downloads/video-ukf-materials-versions-1.0/02-meet-the-view-controller/starter/StoryPrompts.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		EE543C7925EC468C00985B76 /* UIKit_testing */ = {
 			isa = PBXGroup;
 			children = (
+				EE543C8F25ED983700985B76 /* Model */,
 				EE543C7A25EC468C00985B76 /* AppDelegate.swift */,
 				EE543C7C25EC468C00985B76 /* SceneDelegate.swift */,
 				EE543C7E25EC468C00985B76 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				EE543C8825EC469300985B76 /* Info.plist */,
 			);
 			path = UIKit_testing;
+			sourceTree = "<group>";
+		};
+		EE543C8F25ED983700985B76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE543C9025ED98BA00985B76 /* StoryPromptEntry.swift */,
+				EE543C9125ED98BA00985B76 /* StoryPrompts.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE543C9325ED98BC00985B76 /* StoryPrompts.swift in Sources */,
 				EE543C7F25EC468C00985B76 /* ViewController.swift in Sources */,
 				EE543C7B25EC468C00985B76 /* AppDelegate.swift in Sources */,
+				EE543C9225ED98BC00985B76 /* StoryPromptEntry.swift in Sources */,
 				EE543C7D25EC468C00985B76 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

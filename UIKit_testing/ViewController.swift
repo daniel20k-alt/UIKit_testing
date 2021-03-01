@@ -11,7 +11,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        let storyPrompt = StoryPromptEntry()
+        storyPrompt.noun = "toaster"
+        storyPrompt.adjective = "orangy"
+        storyPrompt.verb = "shine"
+        storyPrompt.number = 10
+        print(storyPrompt)
     }
 
 
